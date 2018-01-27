@@ -1,0 +1,3 @@
+## FastBuy
+
+Esta aplicación esta pensada para permitir a los usuarios realizar pagos mediante una cuenta bancaria o pagos en tiendas de conveniencia como oxxo y seven eleven...
