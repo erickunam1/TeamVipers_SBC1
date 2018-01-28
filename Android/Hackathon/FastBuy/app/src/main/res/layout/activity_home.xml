@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.fastbuy.HomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewUser"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:layout_weight=".3"
+            android:src="@drawable/ic_person"/>
+
+        <TextView
+            android:id="@+id/textViewNameUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="35sp"
+            android:text="Hugo Mejía"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/buttonSaldo"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_attach_money"
+            android:gravity="center_vertical"
+            android:text="Consulta de saldo"/>
+
+        <Button
+            android:id="@+id/buttonTransactions"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_import_export"
+            android:gravity="center_vertical"
+        android:text="Transacciones"/>
+
+        <Button
+            android:id="@+id/buttonFastBay"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock"
+            android:gravity="center_vertical"
+            android:text="FastBuy"/>
+
+        <Button
+            android:id="@+id/buttonSupport"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_help_outline"
+            android:gravity="center_vertical"
+            android:text="Soporte"/>
+
+    </LinearLayout>
+
+</LinearLayout>

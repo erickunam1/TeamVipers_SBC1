@@ -1,0 +1,32 @@
+a{
+	 background-color: #fe4918;
+    padding: 10px 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all .3s ease;
+    border: 2px solid #fe4918;
+	
+	}
+	
+	div#productos{
+		text-align:left;
+		font-size:25px;
+		font-family:Georgia, "Times New Roman", Times, serif;
+		font-style:normal;
+		margin:auto;
+		
+		}
+		div#botones{
+			text-align:left;
+			
+			}
+			div#total{
+				font-size:24px;
+				padding-top:20px;
+				}
